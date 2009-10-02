@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091002163624) do
+ActiveRecord::Schema.define(:version => 20091002175425) do
 
   create_table "activities", :force => true do |t|
     t.integer  "user_id",    :limit => 10
@@ -131,6 +131,7 @@ ActiveRecord::Schema.define(:version => 20091002163624) do
     t.text     "description"
     t.integer  "metro_area_id"
     t.string   "location"
+    t.boolean  "allow_rsvp",    :default => true
   end
 
   create_table "favorites", :force => true do |t|
@@ -378,41 +379,51 @@ ActiveRecord::Schema.define(:version => 20091002163624) do
     t.string   "email"
     t.text     "description"
     t.integer  "avatar_id"
-    t.string   "crypted_password",          :limit => 40
-    t.string   "salt",                      :limit => 40
+    t.string   "crypted_password",                                        :null => false
+    t.string   "password_salt",                                           :null => false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "remember_token"
-    t.datetime "remember_token_expires_at"
+    t.string   "persistence_token"
     t.text     "stylesheet"
-    t.integer  "view_count",                              :default => 0
-    t.boolean  "vendor",                                  :default => false
-    t.string   "activation_code",           :limit => 40
+    t.integer  "view_count",                           :default => 0
+    t.boolean  "vendor",                               :default => false
+    t.string   "activation_code",        :limit => 40
     t.datetime "activated_at"
     t.integer  "state_id"
     t.integer  "metro_area_id"
     t.string   "login_slug"
-    t.boolean  "notify_comments",                         :default => true
-    t.boolean  "notify_friend_requests",                  :default => true
-    t.boolean  "notify_community_news",                   :default => true
+    t.boolean  "notify_comments",                      :default => true
+    t.boolean  "notify_friend_requests",               :default => true
+    t.boolean  "notify_community_news",                :default => true
     t.integer  "country_id"
-    t.boolean  "featured_writer",                         :default => false
+    t.boolean  "featured_writer",                      :default => false
     t.datetime "last_login_at"
     t.string   "zip"
     t.date     "birthday"
     t.string   "gender"
-    t.boolean  "profile_public",                          :default => true
-    t.integer  "activities_count",                        :default => 0
-    t.integer  "sb_posts_count",                          :default => 0
+    t.boolean  "profile_public",                       :default => true
+    t.integer  "activities_count",                     :default => 0
+    t.integer  "sb_posts_count",                       :default => 0
     t.datetime "sb_last_seen_at"
     t.integer  "role_id"
+    t.string   "single_access_token"
+    t.string   "perishable_token"
+    t.integer  "login_count",                          :default => 0,     :null => false
+    t.integer  "failed_login_count",                   :default => 0,     :null => false
+    t.datetime "last_request_at"
+    t.datetime "current_login_at"
+    t.string   "current_login_ip"
+    t.string   "last_login_ip"
   end
 
   add_index "users", ["activated_at"], :name => "index_users_on_activated_at"
   add_index "users", ["avatar_id"], :name => "index_users_on_avatar_id"
   add_index "users", ["created_at"], :name => "index_users_on_created_at"
   add_index "users", ["featured_writer"], :name => "index_users_on_featured_writer"
+  add_index "users", ["last_request_at"], :name => "index_users_on_last_request_at"
+  add_index "users", ["login"], :name => "index_users_on_login"
   add_index "users", ["login_slug"], :name => "index_users_on_login_slug"
+  add_index "users", ["persistence_token"], :name => "index_users_on_persistence_token"
   add_index "users", ["vendor"], :name => "index_users_on_vendor"
 
   create_table "votes", :force => true do |t|

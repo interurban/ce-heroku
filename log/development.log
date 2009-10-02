@@ -1454,3 +1454,511 @@ Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engi
 Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
 Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
 Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+  [4;36;1mSQL (10.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (3.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: plugin_schema_info: SELECT plugin_name, version from plugin_schema_info[0m
+  [4;35;1mSQL (5.1ms)[0m   [0mSELECT version FROM plugin_schema_migrations WHERE plugin_name = 'community_engine'[0m
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+  [4;36;1mSQL (4.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (3.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: plugin_schema_info: SELECT plugin_name, version from plugin_schema_info[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CommunityEngineToVersion70 (20091002163624)
+Migrating to CommunityEngineToVersion72 (20091002175425)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (3.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: no such table: plugin_schema_info: SELECT plugin_name, version from plugin_schema_info[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations WHERE plugin_name = 'community_engine'[0m
+  [4;35;1mSQL (2.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: no such table: plugin_schema_info: SELECT plugin_name, version from plugin_schema_info[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (137.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.2ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateUsers (1)
+  [4;35;1mSQL (6.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddActivationCodeToUser (2)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreatePhotos (3)
+  [4;35;1mSQL (5.4ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddTagSupport (4)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateFriendships (5)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddCommentsTables (6)
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateFriendshipStatuses (7)
+  [4;35;1mSQL (4.6ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddFriendshipStatuses (8)
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateClippings (9)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateInvitations (10)
+  [4;36;1mSQL (5.2ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateHomepageFeatures (11)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreatePosts (12)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateStates (13)
+  [4;35;1mSQL (5.2ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddStates (14)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateMetroAreas (15)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddMetroAreas (16)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddSessionsTable (17)
+  [4;35;1mSQL (5.4ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateCategories (18)
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to ChangeCommentToTextField (19)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateLoginSlug (20)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddCategoryNames (21)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateContests (22)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddDeniedFriendshipStatus (23)
+  [4;35;1mSQL (4.7ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddNotificationPreferences (24)
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateCountries (25)
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddCountries (26)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddUsToExistingMetroAreas (27)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddCountryIdToUsers (28)
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddUsToUsersWithStates (29)
+  [4;35;1mSQL (5.3ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddUsersCounterCache (30)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to NewsToTalk (31)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddContestFields (32)
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to FeaturedUsers (33)
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddLastLogin (34)
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to TrackEmailed (35)
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateSkills (36)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateOfferings (37)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddZagToUsers (38)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateActivitiesTable (39)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddCategoryTips (40)
+  [4;36;1mSQL (5.7ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateEventsTable (41)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddPrivacyToUsers (42)
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to SqlSessionStoreSetup (43)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CategoryImprovements (44)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddingIndexes (45)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddingAds (46)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddPolls (47)
+  [4;35;1mSQL (138.2ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddActivitiesCount (49)
+  [4;36;1mSQL (4.8ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateInitialSchema (50)
+  [4;35;1mSQL (5.2ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddAudienceLimitationToAds (51)
+  [4;36;1mSQL (5.4ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateAssets (52)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateFavoritables (53)
+  [4;36;1mSQL (5.3ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddPublishedAsToPosts (54)
+  [4;35;1mSQL (5.3ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddPublishedAtToPosts (55)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateRoles (56)
+  [4;35;1mSQL (4.8ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddMoreIndexes (57)
+  [4;36;1mSQL (5.4ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddAnonymousCommentingFields (58)
+  [4;35;1mSQL (5.1ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateMessages (59)
+  [4;36;1mSQL (5.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to StillMoreIndexes (60)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to PostgresCompatibilityChanges (61)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddNotifyToComments (62)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateAlbums (63)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddAlbumIdToPhotos (64)
+  [4;35;1mSQL (5.0ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddViewCountToAlbums (65)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddViewCountToPhotos (66)
+  [4;35;1mSQL (5.4ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateStaticPages (67)
+  [4;36;1mSQL (4.9ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreateRsvps (68)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to CreatePages (69)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AddPages (70)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+Migrating to AuthlogicCompatibilityChanges (71)
+  [4;36;1mSQL (5.1ms)[0m   [0;1mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(40), "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_created_at" ON "altered_users" ("created_at")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_login_slug" ON "altered_users" ("login_slug")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_vendor" ON "altered_users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_activated_at" ON "altered_users" ("activated_at")[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_featured_writer" ON "altered_users" ("featured_writer")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_avatar_id" ON "altered_users" ("avatar_id")[0m
+  [4;35;1mSQL (20.2ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_avatar_id" ON "users" ("avatar_id")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_featured_writer" ON "users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_activated_at" ON "users" ("activated_at")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_vendor" ON "users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_login_slug" ON "users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_created_at" ON "users" ("created_at")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "salt" varchar(40), "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_created_at" ON "altered_users" ("created_at")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_login_slug" ON "altered_users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_vendor" ON "altered_users" ("vendor")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_activated_at" ON "altered_users" ("activated_at")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_featured_writer" ON "altered_users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_avatar_id" ON "altered_users" ("avatar_id")[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_avatar_id" ON "users" ("avatar_id")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_featured_writer" ON "users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_activated_at" ON "users" ("activated_at")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_vendor" ON "users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_login_slug" ON "users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_created_at" ON "users" ("created_at")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_created_at" ON "altered_users" ("created_at")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_login_slug" ON "altered_users" ("login_slug")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_vendor" ON "altered_users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_activated_at" ON "altered_users" ("activated_at")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_featured_writer" ON "altered_users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_avatar_id" ON "altered_users" ("avatar_id")[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "remember_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_avatar_id" ON "users" ("avatar_id")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_featured_writer" ON "users" ("featured_writer")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE INDEX "index_users_on_activated_at" ON "users" ("activated_at")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_vendor" ON "users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_login_slug" ON "users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_created_at" ON "users" ("created_at")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "persistence_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_created_at" ON "altered_users" ("created_at")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_login_slug" ON "altered_users" ("login_slug")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_vendor" ON "altered_users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_activated_at" ON "altered_users" ("activated_at")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_featured_writer" ON "altered_users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_avatar_id" ON "altered_users" ("avatar_id")[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "persistence_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_avatar_id" ON "users" ("avatar_id")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_featured_writer" ON "users" ("featured_writer")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE INDEX "index_users_on_activated_at" ON "users" ("activated_at")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_vendor" ON "users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_login_slug" ON "users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_created_at" ON "users" ("created_at")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "persistence_token" varchar(255), "remember_token_expires_at" datetime, "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_created_at')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_users_on_login_slug')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_info('index_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_created_at" ON "altered_users" ("created_at")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_login_slug" ON "altered_users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_vendor" ON "altered_users" ("vendor")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_activated_at" ON "altered_users" ("activated_at")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "temp_index_altered_users_on_featured_writer" ON "altered_users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "temp_index_altered_users_on_avatar_id" ON "altered_users" ("avatar_id")[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255), "email" varchar(255), "description" text, "avatar_id" integer, "crypted_password" varchar(255) NOT NULL, "password_salt" varchar(255) NOT NULL, "created_at" datetime, "updated_at" datetime, "persistence_token" varchar(255), "stylesheet" text, "view_count" integer DEFAULT 0, "vendor" boolean DEFAULT 'f', "activation_code" varchar(40), "activated_at" datetime, "state_id" integer, "metro_area_id" integer, "login_slug" varchar(255), "notify_comments" boolean DEFAULT 't', "notify_friend_requests" boolean DEFAULT 't', "notify_community_news" boolean DEFAULT 't', "country_id" integer, "featured_writer" boolean DEFAULT 'f', "last_login_at" datetime, "zip" varchar(255), "birthday" date, "gender" varchar(255), "profile_public" boolean DEFAULT 't', "activities_count" integer DEFAULT 0, "sb_posts_count" integer DEFAULT 0, "sb_last_seen_at" datetime, "role_id" integer) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mPRAGMA index_list("altered_users")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('temp_index_altered_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('temp_index_altered_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_avatar_id" ON "users" ("avatar_id")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE INDEX "index_users_on_featured_writer" ON "users" ("featured_writer")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_activated_at" ON "users" ("activated_at")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_vendor" ON "users" ("vendor")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_login_slug" ON "users" ("login_slug")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_created_at" ON "users" ("created_at")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mDROP TABLE "altered_users"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mALTER TABLE "users" ADD "single_access_token" varchar(255)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mALTER TABLE "users" ADD "perishable_token" varchar(255)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mALTER TABLE "users" ADD "login_count" integer DEFAULT 0 NOT NULL[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mALTER TABLE "users" ADD "failed_login_count" integer DEFAULT 0 NOT NULL[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mALTER TABLE "users" ADD "last_request_at" datetime[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mALTER TABLE "users" ADD "current_login_at" datetime[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mALTER TABLE "users" ADD "current_login_ip" varchar(255)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mALTER TABLE "users" ADD "last_login_ip" varchar(255)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_login" ON "users" ("login")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE INDEX "index_users_on_persistence_token" ON "users" ("persistence_token")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE INDEX "index_users_on_last_request_at" ON "users" ("last_request_at")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO plugin_schema_migrations (plugin_name, version) VALUES ('community_engine', '71')[0m
+Migrating to AddAllowRsvpToEvents (72)
+  [4;35;1mSQL (4.9ms)[0m   [0mSELECT version FROM plugin_schema_migrations where plugin_name='community_engine'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mALTER TABLE "events" ADD "allow_rsvp" boolean DEFAULT 't'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO plugin_schema_migrations (plugin_name, version) VALUES ('community_engine', '72')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091002175425')[0m
+  [4;35;1mSQL (3.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (2.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mPRAGMA index_list("activities")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_activities_on_user_id')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_activities_on_created_at')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("ads")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("albums")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("assets")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("categories")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("choices")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("clippings")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_clippings_on_created_at')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mPRAGMA index_list("comments")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_comments_on_commentable_id')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_comments_on_commentable_type')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_comments_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_comments_on_recipient_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('fk_comments_user')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("contests")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("countries")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("favorites")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('fk_favorites_user')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("forums")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("friendship_statuses")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_list("friendships")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_friendships_on_friendship_status_id')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_info('index_friendships_on_user_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("homepage_features")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("invitations")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("messages")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("metro_areas")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("moderatorships")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_moderatorships_on_forum_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("monitorships")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("offerings")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("pages")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_list("photos")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_photos_on_created_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_photos_on_parent_id')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("plugin_schema_migrations")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_list("polls")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_polls_on_post_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_polls_on_created_at')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mPRAGMA index_list("posts")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_posts_on_user_id')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_posts_on_published_as')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_posts_on_published_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_posts_on_category_id')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("roles")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("rsvps")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_list("sb_posts")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mPRAGMA index_info('index_sb_posts_on_user_id')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_info('index_sb_posts_on_forum_id')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_sessions_on_sessid')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("skills")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("states")[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mPRAGMA index_list("taggings")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_taggable_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_taggings_on_taggable_type')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("tags")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_tags_on_name')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mPRAGMA index_list("topics")[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mPRAGMA index_info('index_topics_on_forum_id_and_replied_at')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mPRAGMA index_info('index_topics_on_sticky_and_replied_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_topics_on_forum_id')[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_last_request_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_persistence_token')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_login')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mPRAGMA index_info('index_users_on_created_at')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_login_slug')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_vendor')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_activated_at')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("votes")[0m

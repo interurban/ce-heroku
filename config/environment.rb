@@ -12,7 +12,8 @@ Rails::Initializer.run do |config|
   config.plugins = [:community_engine, :white_list, :all]
   config.plugin_paths += ["#{RAILS_ROOT}/vendor/plugins/community_engine/plugins"]
 
-  config.gem 'icalendar'
+  config.gem 'ri_cal'
+  config.gem 'authlogic'  
   config.gem 'calendar_date_select'
   config.gem 'aws-s3', :lib => 'aws/s3'
   config.gem 'haml', :lib => 'htmlentities'
