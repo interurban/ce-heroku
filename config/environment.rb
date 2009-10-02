@@ -37,3 +37,6 @@ ActionMailer::Base.smtp_settings = {
   :authentication  => :login,
   :tls => false  
 }
+
+
+raise YAML.load(ERB.new(File.read('config/amazon_s3.yml')).result)[RAILS_ENV].inspect

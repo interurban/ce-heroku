@@ -2152,3 +2152,5 @@ Rendered shared/_header (88.4ms)
 Rendered shared/_messages (0.7ms)
   [4;36;1mPage Load (0.9ms)[0m   [0;1mSELECT * FROM "pages" WHERE (published_as = 'live') [0m
 Completed in 570ms (View: 546, DB: 5) | 200 OK [http://localhost/bruno/signup_completed]
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
