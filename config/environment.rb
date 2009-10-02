@@ -31,12 +31,9 @@ require "#{RAILS_ROOT}/vendor/plugins/community_engine/config/boot.rb"
 ActionMailer::Base.smtp_settings = {
   :address  => ENV['smtp_address'],
   :port  => 25,
-  :user_name  => "#{ENV['smtp_user']}@#{ENV['smtp_address']}",
+  :user_name  => ENV['smtp_user'],
   :password  => ENV['smtp_password'],
   :domain => 'localhost',   
   :authentication  => :login,
   :tls => false  
 }
-
-
-raise YAML.load(ERB.new(File.read('config/amazon_s3.yml')).result)[RAILS_ENV].inspect

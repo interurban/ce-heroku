@@ -2154,3 +2154,4 @@ Rendered shared/_messages (0.7ms)
 Completed in 570ms (View: 546, DB: 5) | 200 OK [http://localhost/bruno/signup_completed]
 Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
 Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
