@@ -30,7 +30,7 @@ require "#{RAILS_ROOT}/vendor/plugins/community_engine/config/boot.rb"
 
 ActionMailer::Base.smtp_settings = {
   :address  => ENV['smtp_address'],
-  :port  => 25,
+  :port  => 2525,
   :user_name  => "#{ENV['smtp_user']}@#{ENV['smtp_address']}",
   :password  => ENV['smtp_password'],
   :authentication  => :login
