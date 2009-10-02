@@ -4,6 +4,6 @@ class CommunityEngineToVersion72 < ActiveRecord::Migration
   end
 
   def self.down
-    migrate_plugin(:community_engine, 70)    
+    migrate_plugin(:community_engine, 0)    
   end
 end
