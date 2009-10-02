@@ -27,8 +27,10 @@ config.action_view.cache_template_loading            = true
 # Enable threaded mode
 # config.threadsafe!
 
-APP_URL = "http://example.com"
+APP_URL = "http://quiet-dusk-48.heroku.com"
 
 config.after_initialize do
   EnginesHelper.autoload_assets = false
 end
+
+config.action_mailer.delivery_method = :smtp
