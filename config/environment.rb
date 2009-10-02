@@ -5,12 +5,12 @@ RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
- require 'desert'
+require 'desert'
 
 
 Rails::Initializer.run do |config|
   config.plugins = [:community_engine, :white_list, :all]
-config.plugin_paths += ["#{RAILS_ROOT}/vendor/plugins/community_engine/plugins"]
+  config.plugin_paths += ["#{RAILS_ROOT}/vendor/plugins/community_engine/plugins"]
 
   config.gem 'icalendar'
   config.gem 'calendar_date_select'
@@ -52,4 +52,6 @@ config.plugin_paths += ["#{RAILS_ROOT}/vendor/plugins/community_engine/plugins"]
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
 end
- require "#{RAILS_ROOT}/vendor/plugins/community_engine/config/boot.rb"
+
+
+require "#{RAILS_ROOT}/vendor/plugins/community_engine/config/boot.rb"

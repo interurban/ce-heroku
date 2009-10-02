@@ -1450,3 +1450,7 @@ Migrating to AddPages (70)
   [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_info('index_users_on_featured_writer')[0m
   [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_users_on_avatar_id')[0m
   [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("votes")[0m
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
+Loading routes from /Users/bruno/Projects/ceheroku/vendor/plugins/community_engine/config/desert_routes.rb.
