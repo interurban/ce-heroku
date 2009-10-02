@@ -1,6 +1,5 @@
 community_name: ceheroku
-
-
+support_email:  "admin@curbly.com"
 
 photo:
   missing_thumb: '/plugin_assets/community_engine/images/icon_missing_thumb.gif'
