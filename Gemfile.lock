@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/bborn/communityengine.git
-  revision: 122db9cdfa7127be2bac6f403f695ffade107c30
+  revision: 623b71d80f2c01045606b8e93d784d5eebbbb8fd
   branch: rails3
   specs:
     community_engine (2.0.0.beta)
