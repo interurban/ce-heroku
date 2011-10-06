@@ -14,7 +14,7 @@ photo:
       medium: "290x320#"
       large: "664>"
     storage: s3
-    s3_credentials: "<%= Rails.root.join('config', 'amazon_s3.yml') %>"
+    s3_credentials: "<%= Rails.root.join('config', 's3.yml') %>"
     path: ":attachment/:id_:style.:extension"
   validation_options:
     max_size: 3
@@ -29,7 +29,7 @@ feature:
     max_size: 1
     thumbnails: {thumb: 'c45x45!', medium: 'c126x126!', large: 'c269x269!'}    
     storage: 's3'
-    s3_credentials: "<%= Rails.root.join('config', 'amazon_s3.yml') %>"    
+    s3_credentials: "<%= Rails.root.join('config', 's3.yml') %>"    
     processor: rmagick    
     content_type: ['image/jpg', 'image/jpeg', 'image/pjpeg', 'image/gif', 'image/png', 'image/x-png']
         
@@ -40,6 +40,6 @@ clipping:
     max_size: 3
     thumbnails: {thumb: "c100x100!", medium_square: "c200x200!", medium: "200>"}
     storage: 's3'
-    s3_credentials: "<%= Rails.root.join('config', 'amazon_s3.yml') %>"    
+    s3_credentials: "<%= Rails.root.join('config', 's3.yml') %>"    
     processor: rmagick    
     content_type: ['image/jpg', 'image/jpeg', 'image/pjpeg', 'image/gif', 'image/png', 'image/x-png']
