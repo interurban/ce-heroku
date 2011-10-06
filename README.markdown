@@ -1,0 +1,1 @@
+For Rails 3.1 apps, use the [Rails 3 branch](https://github.com/bborn/ce-heroku/tree/rails3)
