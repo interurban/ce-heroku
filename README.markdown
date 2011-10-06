@@ -1,0 +1,1 @@
+For Rails 2.x apps, use the [master branch](https://github.com/bborn/ce-heroku/tree/)
