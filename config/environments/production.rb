@@ -9,7 +9,7 @@ Ce3::Application.configure do
   config.action_controller.perform_caching = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress both stylesheets and JavaScripts
   config.assets.js_compressor  = :uglifier
@@ -17,7 +17,8 @@ Ce3::Application.configure do
 
   # Specifies the header that your server uses for sending files
   # (comment out if your front-end server doesn't support this)
-  config.action_dispatch.x_sendfile_header = "X-Sendfile" # Use 'X-Accel-Redirect' for nginx
+  # config.action_dispatch.x_sendfile_header = "X-Sendfile" # Use 'X-Accel-Redirect' for nginx
+  config.action_dispatch.x_sendfile_header = nil  
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
@@ -49,4 +50,16 @@ Ce3::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+  
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.smtp_settings = {
+    :address        => "smtp.sendgrid.net",
+    :port           => "25",
+    :authentication => :plain,
+    :user_name      => ENV['SENDGRID_USERNAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
+    :domain         => ENV['SENDGRID_DOMAIN']
+  }  
+  
+  
 end
