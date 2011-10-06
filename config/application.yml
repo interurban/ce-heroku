@@ -1,0 +1,45 @@
+app_host: ce3.herokuapp.com
+community_name: CE on Rails 3
+
+
+photo:
+  missing_thumb: '/assets/icon_missing_thumb.gif'
+  missing_medium: "/assets/icon_missing_medium.gif"
+  paperclip_options:
+    styles:
+      thumb:
+        geometry: "100x100#"
+        processors:
+        - :cropper
+      medium: "290x320#"
+      large: "664>"
+    storage: s3
+    s3_credentials: "<%= Rails.root.join('config', 'amazon_s3.yml') %>"
+    path: ":attachment/:id_:style.:extension"
+  validation_options:
+    max_size: 3
+    content_type: ['image/jpg', 'image/jpeg', 'image/pjpeg', 'image/gif', 'image/png', 'image/x-png']
+
+       
+feature:
+  use_thumbs: true
+  attachment_fu_options:
+    resize_to: "269>"
+    min_size: 1    
+    max_size: 1
+    thumbnails: {thumb: 'c45x45!', medium: 'c126x126!', large: 'c269x269!'}    
+    storage: 's3'
+    s3_credentials: "<%= Rails.root.join('config', 'amazon_s3.yml') %>"    
+    processor: rmagick    
+    content_type: ['image/jpg', 'image/jpeg', 'image/pjpeg', 'image/gif', 'image/png', 'image/x-png']
+        
+clipping:
+  attachment_fu_options:
+    resize_to: "465>"
+    min_size: 1    
+    max_size: 3
+    thumbnails: {thumb: "c100x100!", medium_square: "c200x200!", medium: "200>"}
+    storage: 's3'
+    s3_credentials: "<%= Rails.root.join('config', 'amazon_s3.yml') %>"    
+    processor: rmagick    
+    content_type: ['image/jpg', 'image/jpeg', 'image/pjpeg', 'image/gif', 'image/png', 'image/x-png']

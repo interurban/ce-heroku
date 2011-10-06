@@ -1,0 +1,17 @@
+development:
+  bucket_name: ceheroku-uploads
+  access_key_id: '<%= ENV["S3_KEY"] %>'
+  secret_access_key: '<%= ENV["S3_SECRET"] %>'
+  use_persistent: false
+
+test:
+  bucket_name: ceheroku-uploads
+  access_key_id: '<%= ENV["S3_KEY"] %>'
+  secret_access_key: '<%= ENV["S3_SECRET"] %>'
+  use_persistent: false
+
+production:
+  bucket_name: ceheroku-uploads
+  access_key_id: '<%= ENV["S3_KEY"] %>'
+  secret_access_key: '<%= ENV["S3_SECRET"] %>'
+  use_persistent: false
