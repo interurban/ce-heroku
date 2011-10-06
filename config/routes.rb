@@ -1,4 +1,4 @@
-Ce3Test::Application.routes.draw do
+Ce3::Application.routes.draw do
   mount CommunityEngine::Engine => "/"
   # The priority is based upon order of creation:
   # first created -> highest priority.

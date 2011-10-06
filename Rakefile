@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ce3Test::Application.load_tasks
+Ce3::Application.load_tasks
