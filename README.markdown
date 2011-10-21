@@ -2,7 +2,7 @@ For Rails 2.x apps, use the [master branch](https://github.com/bborn/ce-heroku/t
 
 To deploy this app to Heroku:
 
-* Clone it: `git@github.com:bborn/ce-heroku.git`
+* Clone it: `git clone git://github.com/bborn/ce-heroku.git`
 * Switch to the rails3 branch: `git checkout rails3`
 * Create a new Heroku app using the Cedar stack: `heroku create --stack cedar`
 * Push to Heroku: `git push heroku rails3:master`
